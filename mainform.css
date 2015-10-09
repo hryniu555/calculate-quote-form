@@ -1,0 +1,307 @@
+form, fieldset
+{
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+#form-quote
+{
+	float: left;
+	position: relative;
+}
+#form-quote h3
+{
+	position: absolute;
+	top: 0;
+	left: 110px;
+	width: 386px;
+	height: 36px;
+	color: #fff;
+	font-size: 18px;
+	line-height: 36px;
+	text-align: center;
+	background: url('images/field-heading.png');
+}
+#form-quote h3 .discount
+{
+	font-size: 14px;
+	line-height: 14px;
+	display: block;
+	padding: 4px 0;
+}
+#form-quote form
+{
+	margin: 0 0 0 -16px;
+}
+.col
+{
+	width: 290px;
+	float: left;
+}
+#form-quote label
+{
+	display: block;
+	float: left;
+	width: 100px;
+	height: 19px;
+	line-height: 19px;
+	text-align: right;
+	margin: 0 0 7px;
+	font-size: 12px;
+}
+#form-quote .field
+{
+	margin: 0 0 7px 110px;
+}
+#form-quote .text
+{
+	display: block;
+	width: 162px !important;
+	height: 19px;
+	background: url('images/field-text-bg.png') no-repeat;
+	border: none;
+	padding: 0 0 0 5px !important;
+	font-size: 12px;
+}
+#form-quote span.text
+{
+	position: relative;
+}
+#form-quote span.text .value
+{
+	background: url('images/field-select-arrow.png') no-repeat 100% 50%;
+	display: block;
+	height: 19px;
+	line-height: 19px;
+}
+#form-quote .text select
+{
+	opacity: 0;
+	filter: alpha(opacity=0);
+	border: none;
+	width: 158px !important;
+	margin: 1px 4px !important;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#form-quote .col-bottom
+{
+	clear: both;
+	margin: 0 0 7px 65px;
+}
+#form-quote .col-bottom label
+{
+	width: 40px;
+	margin: 0 5px 0 0;
+}
+#form-quote .col-bottom .field
+{
+	margin: 0;
+	float: left;
+}
+#form-quote .col-bottom .text
+{
+	float: left;
+	width: 117px !important;
+	background: url('images/field-text-small-bg.png') no-repeat;
+}
+#form-quote .col-comment textarea
+{
+	width: 460px;
+	background: #ececef;
+	border: none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+}
+#form-quote .col-submit
+{
+	position: absolute;
+	bottom: 38px;
+	left: 221px;
+	width: 167px;
+	height: 40px;
+}
+#form-quote #form-submit
+{
+	background: url('images/form-button.png') no-repeat;
+	width: 158px !important;
+	height: 40px;
+	border: none;
+	color: #fff;
+	text-align: center;
+	font-size: 18px;
+	line-height: 35px;
+	cursor: pointer;
+}
+#form-quote .error,
+#form-quote .success
+{
+	position: absolute;
+	top: 210px;
+	left: 10px;
+	width: 180px;
+}
+.error
+{
+	color: #800;
+	list-style: none;
+	background: #fff;
+	border: 1px solid #800;
+	padding: 5px;
+}
+.success
+{
+	color: #080;
+}
+
+#form-quote-small
+{
+	width: 270px;
+	height: 434px;
+	background: url('images/side-form-quote.png') no-repeat;
+	position: relative;
+	padding: 70px 0 0;
+}
+#form-quote-small h3
+{
+	position: absolute;
+	top: 0;
+	left: 30px;
+	width: 210px;
+	height: 54px;
+	color: #fff;
+	font-size: 16px;
+	line-height: 40px;
+	padding: 7px 0;
+	text-align: center;
+}
+#form-quote-small h3 .discount
+{
+	font-size: 12px;
+	line-height: 14px;
+	display: block;
+	padding: 0 0;
+}
+#form-quote-small .col
+{
+	width: 240px;
+	padding: 0 15px;
+}
+#form-quote-small label
+{
+	display: block;
+	float: left;
+	width: 90px;
+	height: 19px;
+	line-height: 19px;
+	text-align: right;
+	margin: 0 0 8px;
+	font-size: 11px;
+}
+#form-quote-small .field
+{
+	margin: 0 0 8px 100px;
+}
+#form-quote-small .text
+{
+	display: block;
+	width: 117px !important;
+	height: 19px;
+	background: url('images/field-text-small-bg.png') no-repeat;
+	border: none;
+	padding: 0 0 0 5px !important;
+	font-size: 12px;
+}
+#form-quote-small span.text
+{
+	position: relative;
+}
+#form-quote-small span.text .value
+{
+	background: url('images/field-select-arrow.png') no-repeat 100% 50%;
+	display: block;
+	height: 19px;
+	line-height: 19px;
+}
+#form-quote-small .text select
+{
+	opacity: 0;
+	filter: alpha(opacity=0);
+	border: none;
+	width: 113px !important;
+	margin: 1px 4px !important;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#form-quote-small textarea
+{
+	width: 122px;
+	background: #ececef;
+	border: none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+}
+#form-quote-small .col-submit
+{
+	position: absolute;
+	bottom: 30px;
+	left: 57px;
+	width: 167px;
+	height: 40px;
+}
+#form-quote-small #form-submit
+{
+	background: url('images/form-button.png') no-repeat;
+	width: 158px !important;
+	height: 40px;
+	border: none;
+	color: #fff;
+	text-align: center;
+	font-size: 18px;
+	line-height: 35px;
+	cursor: pointer;
+}
+#form-quote-small .error,
+#form-quote-small .success
+{
+	position: absolute;
+	top: 50px;
+	left: -160px;
+	width: 140px;
+	font-size: 11px;
+}
+
+
+.ac_results {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	position: absolute;
+	z-index: 10000;
+	display: none;
+	border-width: 1px;
+	border-style: solid;
+	background: #ececef;
+}
+
+.ac_results li {
+	padding: 2px 5px;
+	white-space: nowrap;
+	text-align: left;
+	font-size: 11px;
+	list-style: none;
+}
+
+.ac_over {
+	cursor: pointer;
+}
+
+.ac_match {
+	text-decoration: underline;
+}
